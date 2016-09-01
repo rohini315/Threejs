@@ -167,31 +167,31 @@ var havePointerLock = 'pointerLockElement' in document || 'mozPointerLockElement
 
         // Garden Elements JSONfiles
         garden = new THREE.JSONLoader();
-        garden.load("models/justgardenjoin3.json",addGarden);
+        garden.load("justgardenjoin3.json",addGarden);
     
         boc = new THREE.JSONLoader();
-        boc.load("models/boc1.json",addSculp);
+        boc.load("boc1.json",addSculp);
 
         ganesh = new THREE.JSONLoader();
-        ganesh.load("models/ganesha.json",addSculp);
+        ganesh.load("ganesha.json",addSculp);
 
         sword = new THREE.JSONLoader();
-        sword.load("models/sword2.json",addSculp);
+        sword.load("sword2.json",addSculp);
 
         head = new THREE.JSONLoader();
-        head.load("models/head2.json",addSculp);
+        head.load("head2.json",addSculp);
 
         buddha = new THREE.JSONLoader();
-        buddha.load("models/buddha2.json",addSculp);
+        buddha.load("buddha2.json",addSculp);
 
         torso = new THREE.JSONLoader();
-        torso.load("models/torso2.json",addSculp);
+        torso.load("torso2.json",addSculp);
 
         flower = new THREE.JSONLoader();
-        flower.load("models/flowers.json",addSculp);
+        flower.load("flowers.json",addSculp);
 
         flowers2 = new THREE.JSONLoader();
-        flowers2.load("models/flower2.json",addSculp);
+        flowers2.load("flower2.json",addSculp);
 
 
         // Renderer
